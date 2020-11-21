@@ -61,7 +61,7 @@ class _IntroPageState extends State<IntroPage>{
             margin:EdgeInsets.only(bottom:50),
             child:Row(
               mainAxisAlignment:MainAxisAlignment.center,
-              children:[...?_indicatorBuilder()],
+              children:<Widget>[...?_indicatorBuilder()],
             ),
           ),
           //#SKIP BUTTON
