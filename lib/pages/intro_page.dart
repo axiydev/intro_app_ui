@@ -130,7 +130,7 @@ class _IntroPageState extends State<IntroPage>{
     }
     return indicator;
   }
-  //Wiget for button
+  //Widget type funk for create button
   Widget _skipButton({title}){
     return Container(
       child:GestureDetector(
